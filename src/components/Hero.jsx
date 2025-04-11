@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Image */}
-      <div 
+      {/* <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url(https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
@@ -17,10 +17,25 @@ const Hero = () => {
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
+      </div> */}
+
+      <div className="absolute inset-0 ">
+      <div className="absolute inset-0 bg-black/70"></div>
+      <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className={`w-full h-full object-cover`}
+          >
+            <source src="https://videocdn.cdnpk.net/videos/bb85411f-f420-4008-8833-b4c38898c0bd/horizontal/previews/clear/large.mp4?token=exp=1744373455~hmac=5bb451aa831ee2d775ea2784ad11362f4604c76276d2e60bdf8dd8d618b809cf" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
       </div>
 
+
       {/* Content */}
-      <div className="container mx-auto px-6 relative z-10 mt-30">
+      <div className="container mx-auto px-6 relative z-10 mt-30 mb-15 ">
         <div className="max-w-2xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 sm:mb-6 text-white">
             Crafting <span className="text-indigo-400">Digital</span> Experiences & <span className="text-indigo-400">Visual</span> Identities
