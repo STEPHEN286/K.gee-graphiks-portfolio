@@ -28,7 +28,7 @@ const Hero = () => {
             playsInline
             className={`w-full h-full object-cover`}
           >
-            <source src="https://videocdn.cdnpk.net/videos/bb85411f-f420-4008-8833-b4c38898c0bd/horizontal/previews/clear/large.mp4?token=exp=1744373455~hmac=5bb451aa831ee2d775ea2784ad11362f4604c76276d2e60bdf8dd8d618b809cf" type="video/mp4" />
+            <source src="https://i.imgur.com/9DpL7lC.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
       </div>
